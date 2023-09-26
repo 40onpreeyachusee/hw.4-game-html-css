@@ -1,0 +1,97 @@
+element.style {
+}
+.page h1, .page h1 span, .page h2.with_background span {
+    color: var(--color-white);
+    font-size: 2.4rem;
+    line-height: 3rem;
+    padding: 0;
+    margin: 0 0 3rem;
+    position: relative;
+}
+h1 {
+    font-size: 4.6rem;
+    line-height: 1.2;
+}
+h1, .h1, h2, .h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+:-webkit-any(article, aside, nav, section) h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+user agent stylesheet
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+body {
+    background-color: var(--color-background);
+    background-position: top center;
+    color: var(--color-white);
+    font-family: var(--font-family-init),var(--font-family-cyrillic),var(--font-family-chinese),sans-serif;
+    font-style: normal;
+    font-size: var(--font-size-init);
+    font-weight: var(--font-weight-init);
+    font-display: swap;
+    line-height: 1.25;
+    margin: 0;
+    width: 100%;
+    overflow: auto;
+}
+:root {
+    --color-background: #161B28;
+    --color-midnight-express: #1D2333;
+    --color-midnight-express_2: #202739;
+    --color-midnight-express_3: #232A3E;
+    --color-bluewood: #343E5C;
+    --color-biscay: #313B55;
+    --color-roman: #dc2f43;
+    --color-roman-hover: #C64B4B;
+    --color-purple: #800080;
+    --color-blue: #162BFF;
+    --color-dark-pastel-green: #20B541;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-dodger-blue: #006AFF;
+    --color-dodger-blue-hover: #3086FF;
+    --color-navy-blue: #005BDB;
+    --color-cobalt: #004EBB;
+    --color-rock-blue: #9AA4BF;
+    --color-ship-cove: #7B8398;
+    --color-periwinkle: #B9C6E7;
+    --color-blue-shadow: rgba(0, 106, 255, 0.2);
+    --color-dove-gray: #656565;
+    --color-east-bay: #445278;
+    --color-wattle: #D8E356;
+    --color-wattle-opacity02: rgba(216, 227, 86, 0.2);
+    --color-spring-green: #00FF66;
+    --color-spring-green-opacity02: rgba(0, 255, 102, 0.2);
+    --color-regent-gray: #828A9E;
+    --font-family-init: 'TT Supermolot Neue';
+    --font-family-cyrillic: 'TT Supermolot Neue';
+    --font-family-chinese: 'TT Supermolot Neue';
+    --font-size-init: 1.6rem;
+    --font-weight-init: normal;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+*, *:after, *:before {
+    box-sizing: inherit;
